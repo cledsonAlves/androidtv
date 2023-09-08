@@ -12,7 +12,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59ee7c3b-c551-4523-9ac3-77e6b6a2278a" name="Default Changelist" comment="" />
+    <list default="true" id="2203556d-56ab-4169-b83e-7002df591668" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +27,16 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="20JqzplZQxHLJXSmEN14xFrsUQu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,6 +46,7 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="SerialNumber@R9QN700BKEM" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-11-01T13:46:42.164064800Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../gitactions" />
     <property name="project.structure.last.edited" value="SDK Location" />
@@ -123,9 +137,13 @@
       <screen x="0" y="0" width="1440" height="852" />
     </state>
     <state x="237" y="172" key="#PSD/0.0.1440.852@0.0.1440.852" timestamp="1694135285082" />
-    <state x="383" y="173" key="search.everywhere.popup" timestamp="1694135156288">
+    <state x="461" y="228" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1694136774809">
       <screen x="0" y="0" width="1440" height="852" />
     </state>
-    <state x="383" y="173" key="search.everywhere.popup/0.0.1440.852@0.0.1440.852" timestamp="1694135156288" />
+    <state x="461" y="228" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.852@0.0.1440.852" timestamp="1694136774809" />
+    <state x="383" y="173" width="672" height="678" key="search.everywhere.popup" timestamp="1694136812851">
+      <screen x="0" y="0" width="1440" height="852" />
+    </state>
+    <state x="383" y="173" width="672" height="678" key="search.everywhere.popup/0.0.1440.852@0.0.1440.852" timestamp="1694136812851" />
   </component>
 </project>
