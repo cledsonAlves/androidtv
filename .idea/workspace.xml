@@ -13,7 +13,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2203556d-56ab-4169-b83e-7002df591668" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/codeql.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/codeql.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +20,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\Cledson\.android\avd\Pixel_4_API_25.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\Cledson\.android\avd\Pixel_4_API_25.ini]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -206,7 +205,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="59ee7c3b-c551-4523-9ac3-77e6b6a2278a" name="Default Changelist" comment="" />
+      <changelist id="2203556d-56ab-4169-b83e-7002df591668" name="Default Changelist" comment="" />
       <created>1635773302884</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -223,22 +222,22 @@
       <screen x="0" y="0" width="1440" height="852" />
     </state>
     <state x="461" y="228" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.852@0.0.1440.852" timestamp="1694136774809" />
-    <state width="1397" height="220" key="GridCell.Tab.0.bottom" timestamp="1694137905842">
+    <state width="1397" height="220" key="GridCell.Tab.0.bottom" timestamp="1694139134029">
       <screen x="0" y="0" width="1440" height="852" />
     </state>
-    <state width="1397" height="220" key="GridCell.Tab.0.bottom/0.0.1440.852@0.0.1440.852" timestamp="1694137905842" />
-    <state width="1397" height="220" key="GridCell.Tab.0.center" timestamp="1694137905842">
+    <state width="1397" height="220" key="GridCell.Tab.0.bottom/0.0.1440.852@0.0.1440.852" timestamp="1694139134029" />
+    <state width="1397" height="220" key="GridCell.Tab.0.center" timestamp="1694139134028">
       <screen x="0" y="0" width="1440" height="852" />
     </state>
-    <state width="1397" height="220" key="GridCell.Tab.0.center/0.0.1440.852@0.0.1440.852" timestamp="1694137905842" />
-    <state width="1397" height="220" key="GridCell.Tab.0.left" timestamp="1694137905842">
+    <state width="1397" height="220" key="GridCell.Tab.0.center/0.0.1440.852@0.0.1440.852" timestamp="1694139134028" />
+    <state width="1397" height="220" key="GridCell.Tab.0.left" timestamp="1694139134028">
       <screen x="0" y="0" width="1440" height="852" />
     </state>
-    <state width="1397" height="220" key="GridCell.Tab.0.left/0.0.1440.852@0.0.1440.852" timestamp="1694137905842" />
-    <state width="1397" height="220" key="GridCell.Tab.0.right" timestamp="1694137905842">
+    <state width="1397" height="220" key="GridCell.Tab.0.left/0.0.1440.852@0.0.1440.852" timestamp="1694139134028" />
+    <state width="1397" height="220" key="GridCell.Tab.0.right" timestamp="1694139134029">
       <screen x="0" y="0" width="1440" height="852" />
     </state>
-    <state width="1397" height="220" key="GridCell.Tab.0.right/0.0.1440.852@0.0.1440.852" timestamp="1694137905842" />
+    <state width="1397" height="220" key="GridCell.Tab.0.right/0.0.1440.852@0.0.1440.852" timestamp="1694139134029" />
     <state x="383" y="173" width="672" height="678" key="search.everywhere.popup" timestamp="1694137805285">
       <screen x="0" y="0" width="1440" height="852" />
     </state>
