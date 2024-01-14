@@ -36,7 +36,8 @@ jobs:
         ./emulator -avd test -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim &
          adb wait-for-device
          adb devices
-         adb shell /system/bin/pm list packages
+         cd /Users/runner/Library/Android/sdk/
+         adb shell /system/bin/pm list *
 
 
 #./emulator -avd test -no-skin -no-audio -no-window &
