@@ -40,10 +40,15 @@ jobs:
 
 
     - name: Install Dependencies and Build
-      run: adb devices
+      run: |
+        adb logcat > emulator_logs.txt
+        adb devices
  
     - name: Run Tests
       run: |
         adb kill-server
         adb start-server
         adb devices
+        cd /Users/runner/Library/Android/sdk/emulator 
+        ./emulator -avd  emulator-5554 -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim &
+        adb logcat > emulator_logs.txt
