@@ -36,7 +36,8 @@ jobs:
         ./emulator -avd test -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim &
          adb wait-for-device
          adb devices
-         adb -s emulator-5554 shell am start -a android.intent.action.VIEW -d "https://play.google.com/"
+         adb shell am start -a android.intent.action.VIEW -d "https://play.google.com/store/apps/details?id=com.itau.investimentos"
+
 #./emulator -avd test -no-skin -no-audio -no-window &
 # android-wait-for-emulator
 
