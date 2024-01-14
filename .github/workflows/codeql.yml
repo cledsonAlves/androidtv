@@ -1,21 +1,37 @@
-name: build
+name: Android Emulator
+ 
 on:
   push:
     branches:
-      - main # run the action on your projects default branch
-
+      - main
+ 
 jobs:
   build:
-    name: Dependencies
     runs-on: ubuntu-latest
-    permissions: # The Dependency Submission API requires write permission
-      contents: write
+ 
     steps:
-      - name: 'Checkout Repository'
-        uses: actions/checkout@v3
-
-      - name: Run snapshot action
-        uses: mikepenz/gradle-dependency-submission@v0.9.0
-        with:
-          gradle-project-path: "myapplication"
-          gradle-build-module: ":myapplication"
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+ 
+    - name: Set up JDK
+      uses: actions/setup-java@v2
+      with:
+        distribution: 'adopt'
+        java-version: '11'
+ 
+    - name: Set up Android SDK
+      uses: android-actions/setup-android@v2
+      with:
+        sdk-version: '30'
+ 
+    - name: Create and Start Emulator
+      run: |
+        echo "no" | avdmanager create avd --force --name test --abi default/armeabi-v7a --package 'system-images;android-30;google_apis;x86'
+        emulator -avd test -no-skin -no-audio -no-window &
+        android-wait-for-emulator
+ 
+    - name: Install Dependencies and Build
+      run: ./gradlew build
+ 
+    - name: Run Tests
+      run: ./gradlew connectedAndroidTest
