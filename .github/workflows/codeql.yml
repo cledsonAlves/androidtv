@@ -34,6 +34,7 @@ jobs:
         echo "no" | avdmanager create avd --force --name test --abi google_apis/x86 --package 'system-images;android-30;google_apis;x86'
         cd /Users/runner/Library/Android/sdk/emulator 
         ./emulator -avd test -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim &
+         adb wait-for-device
          adb devices
 #./emulator -avd test -no-skin -no-audio -no-window &
 # android-wait-for-emulator
