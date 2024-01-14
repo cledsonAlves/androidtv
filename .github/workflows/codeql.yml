@@ -2,8 +2,7 @@ name: Android Emulator
  
 on:
   push:
-    branches:
-      - main
+   
  
 jobs:
   build:
