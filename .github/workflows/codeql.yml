@@ -32,13 +32,14 @@ jobs:
     - name: Create and Start Emulator
       run: |
         echo "no" | avdmanager create avd --force --name test --abi google_apis/x86 --package 'system-images;android-30;google_apis;x86'
-        cd /Users/runner/Library/Android/sdk/emulator     
-        ./emulator -avd test -no-skin -no-audio -no-window &
+        cd /Users/runner/Library/Android/sdk/emulator 
+        ./emulator -avd test -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim
+#./emulator -avd test -no-skin -no-audio -no-window &
 # android-wait-for-emulator
 
 
     - name: Install Dependencies and Build
-      run: ./gradlew build
+      run: adb devices
  
     - name: Run Tests
       run: ./gradlew connectedAndroidTest
