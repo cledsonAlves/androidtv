@@ -36,6 +36,8 @@ jobs:
         ./emulator -avd test -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim &
          adb wait-for-device
          adb devices
+         chmod +774
+         sudo su ./gradlew connectedCheck
 #./emulator -avd test -no-skin -no-audio -no-window &
 # android-wait-for-emulator
 
