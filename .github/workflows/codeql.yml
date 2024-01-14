@@ -26,13 +26,14 @@ jobs:
     - name: Download
       run: |
         pwd
+        cd /opt/hostedtoolcache/Java_Adopt_jdk
         ls -l
         echo "y" | sdkmanager "system-images;android-30;google_apis;x86"
  
     - name: Create and Start Emulator
       run: |
         echo "no" | avdmanager create avd --force --name test --abi google_apis/x86 --package 'system-images;android-30;google_apis;x86'
-        cd /home/runner/.android/sdk/emulator/
+        cd /opt/hostedtoolcache/Java_Adopt_jdk/emulator/
         ./emulator -avd test -no-skin -no-audio -no-window &
         android-wait-for-emulator
  
