@@ -22,6 +22,10 @@ jobs:
       uses: android-actions/setup-android@v2
       with:
         sdk-version: '30'
+
+    - name: Download
+      run: |
+        echo "y" | sdkmanager "system-images;android-30;google_apis;x86"
  
     - name: Create and Start Emulator
       run: |
