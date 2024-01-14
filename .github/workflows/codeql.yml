@@ -34,8 +34,12 @@ jobs:
       run: |
         echo "no" | avdmanager create avd --force --name test --abi google_apis/x86 --package 'system-images;android-30;google_apis;x86'
         cd /usr/local/lib/android/sdk/emulator/
-        ./emulator -avd test -no-skin -no-audio -no-window &
-        android-wait-for-emulator
+ #./emulator -avd test -no-skin -no-audio -no-window &
+# android-wait-for-emulator
+
+    - uses: reactivecircus/android-emulator-runner@v2
+      with:
+          avdName: test   
  
     - name: Install Dependencies and Build
       run: ./gradlew build
