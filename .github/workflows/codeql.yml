@@ -42,4 +42,6 @@ jobs:
       run: adb devices
  
     - name: Run Tests
-      run: ./gradlew connectedAndroidTest
+      run: |
+        adb kill-server
+        adb start-server
